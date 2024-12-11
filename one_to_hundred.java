@@ -1,6 +1,6 @@
 public class one_to_hundred {
     public static void main(String[] args) {
-        System.out.println("Prime nums:");
+        System.out.println("Prime numbers are below:");
         for (int i = 2; i <= 100; i++) {
             if (isPrime(i)) {
                 System.out.print(i + " ");
